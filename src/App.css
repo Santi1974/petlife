@@ -1,38 +1,19 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body{
+  font-family: Sora;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: #97a838;
+  background-image:
+  radial-gradient(at 36% 0%, #acd1ec 0px, transparent 50%),
+  radial-gradient(at 80% 0%, #e1e189 0px, transparent 50%),
+  radial-gradient(at 0% 50%, #97a838 0px, transparent 50%),
+  radial-gradient(at 97% 59%, rgba(20, 87, 29, 0.65) 0px, transparent 50%);
+  color: hsla(128,62%,21%,1);   
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
