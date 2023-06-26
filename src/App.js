@@ -13,7 +13,7 @@ import Row from 'react-bootstrap/Row'
 import Image from 'react-bootstrap/Image'
 
 import pets from "../src/assets/pets2.webp"
-import logo from "../src/assets/blacklogo.webp"
+import weblogo from "../src/assets/weblogo.png"
 
 import './App.css';
 
@@ -39,7 +39,7 @@ function App() {
 
         <Helmet>
           <title>PetLife</title>
-          <link rel="icon" href={logo} sizes='16x9'/>
+          <link rel="icon" href={weblogo}/>
         </Helmet>
 
           <Navigation 
