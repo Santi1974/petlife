@@ -6,6 +6,7 @@ import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
 
 import "./styles.css"
+
 function Signup(props) {
     const [ value, setValue ] = useState(20);
 

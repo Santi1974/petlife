@@ -3,10 +3,10 @@ import React from 'react'
 import Navbar from 'react-bootstrap/Navbar'
 import Image from 'react-bootstrap/Image'
 
-import logo1 from "../assets/blacklogo.png"
-import logo2 from "../assets/whitelogo.png"
-import dark from "../assets/dark.png"
-import light from "../assets/light2.png"
+import logo1 from "../assets/blacklogo.webp"
+import logo2 from "../assets/whitelogo.webp"
+import dark from "../assets/dark.webp"
+import light from "../assets/light2.webp"
 
 import "./styles.css"
 import "../App.css"

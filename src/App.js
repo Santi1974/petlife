@@ -6,16 +6,17 @@ import Navigation from './components/Navigation';
 import Login from './components/Login';
 import Signup from './components/Signup';
 import Header from './components/Header';
+import Cursor from './components/Cursor';
 
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
 import Image from 'react-bootstrap/Image'
 
-import pets from "../src/assets/pets2.png"
-import logo from "../src/assets/logo1.png"
+import pets from "../src/assets/pets2.webp"
+import logo from "../src/assets/blacklogo.webp"
 
 import './App.css';
-import Cursor from './components/Cursor';
+
 function App() {
 
   /*Log in or Sign up */
@@ -38,7 +39,7 @@ function App() {
 
         <Helmet>
           <title>PetLife</title>
-          <link rel="icon" href={logo}/>
+          <link rel="icon" href={logo} sizes='16x9'/>
         </Helmet>
 
           <Navigation 

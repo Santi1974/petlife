@@ -144,11 +144,11 @@ header .title{
 /*Paw selector*/
 
 #range::-webkit-slider-thumb{
-    background: url('../assets/paw.png');
+    background: url('../assets/paw.webp');
     background-size: cover;
 }
 #range::-moz-range-thumb {
-    background: url('../assets/paw.png');
+    background: url('../assets/paw.webp');
     background-size: cover;
 }
   
